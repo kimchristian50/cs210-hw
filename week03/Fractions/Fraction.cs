@@ -2,9 +2,11 @@ using System;
 
 public class Fraction
 {
+    // These variables are attributes
     private int _top;
     private int _bottom;
 
+    // These are constructors: 
     public Fraction()
     {
         _top = 1;
@@ -23,6 +25,7 @@ public class Fraction
         _bottom = bottom;
     }
 
+    // These are getters and setters:
     public int GetTop()
     {
         return _top;
@@ -42,6 +45,7 @@ public class Fraction
         _bottom = bottom;
     }
 
+    // These are methods that return the representations
     public string GetFractionString()
     {
         string text = $"{_top}/{_bottom}";

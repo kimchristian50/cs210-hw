@@ -12,7 +12,7 @@ public class Scripture
     // private = locked inside this class
     // List<Word> = a dynamic array container that is strictly forbidden from holding anything except Word objects
     // = new List<Word>() = actually builds the empty container in memory
-    public List<Word> _words = new List<Word>(); // creating a list of word objects
+    private List<Word> _words = new List<Word>(); // creating a list of word objects
 
     // constructors:
     public Scripture(Reference reference, string text)
@@ -44,7 +44,7 @@ public class Scripture
         {
             numberToHide = visibleCount;
         }
-        
+
         while (wordsHiddenThisTurn < numberToHide)
         {
             // make rNumber a random number between 0 and _words.Count - 1 (which is what the .Next method does)

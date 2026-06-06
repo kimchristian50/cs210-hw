@@ -1,3 +1,5 @@
+// I added a feature that makes sure the same questions aren't repeated in the Reflecting activity session until all of the questions are used.
+
 using System;
 
 class Program

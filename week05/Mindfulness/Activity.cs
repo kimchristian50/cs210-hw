@@ -3,8 +3,8 @@ using System.Collections.Generic; // this is for lists
 
 public class Activity
 {
-    protected string _name;
-    protected string _description;
+    private string _name;
+    private string _description;
     protected int _duration;
     // constructor
     public Activity(string name, string description)

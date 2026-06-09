@@ -6,12 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Menu Options:
-        // 1. Start breathing activity
-        // 2. Start reflecting activity
-        // 3. Start listing activity
-        // 4. Quit
-        // Select a choice from the menu:
         int choice = 0;
 
         while (choice != 4)

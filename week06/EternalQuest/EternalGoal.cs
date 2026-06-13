@@ -5,11 +5,12 @@ public class EternalGoal : Goal
     // attributes
 
     // constructor
+    public EternalGoal(string name, string description, int points) : base(name, description, points) { }
 
     // methods
     public override void RecordEvent()
     {
-
+        Console.WriteLine($"Recorded progress on your eternal goal!");
     }
 
     public override bool IsComplete()
@@ -19,7 +20,7 @@ public class EternalGoal : Goal
 
     public override string GetStringRepresentation()
     {
-        return "string";
+        return $"EternalGoal:{_shortName},{_description},{_points}";
     }
 
 }

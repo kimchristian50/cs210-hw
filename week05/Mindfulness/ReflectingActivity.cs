@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic; // this is for lists
 
-
 public class ReflectingActivity : Activity
 {
     private List<string> _prompts;

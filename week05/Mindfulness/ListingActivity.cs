@@ -4,20 +4,6 @@ using System.IO;
 
 public class ListingActivity : Activity
 {
-    // Welcome to the Listing Activity.
-    // This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.
-    // How long, in seconds, would you like for your session?
-    // Get ready... (spinner)
-    // List as many respones as you can to the following prompt:
-    // --- When have you felt the Holy Ghost this month? ---
-    // You may begin in: (countdown)
-    // You listed 4 items!
-    // Well done!
-    // You have completed another 20 seconds of the Listing activity.
-
-    // get a ramdom prompt
-    // get a list of responses from the user
-
     private int _count;
     private List<string> _prompts;
 

@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Concurrent;
 
 public class SimpleGoal : Goal
 {
@@ -7,20 +6,30 @@ public class SimpleGoal : Goal
     private bool _isComplete;
 
     // constructor
+    public SimpleGoal(string name, string description, int points) : base(name, description, points)
+    {
+        _isComplete = false;
+    }
 
     // methods
     public override void RecordEvent()
     {
-
+            SetComplete(true);
     }
 
     public override bool IsComplete()
     {
-        return true; // placeholder
+        return _isComplete;
     }
 
     public override string GetStringRepresentation()
     {
-        return "string";
+        return $"SimpleGoal:{_shortName},{_description},{_points},{_isComplete}";
+        // SimpleGoal:Give a talk,Speak in Sacrament meeting when asked,100,False
+    }
+
+    public void SetComplete(bool complete)
+    {
+        _isComplete = complete;
     }
 }

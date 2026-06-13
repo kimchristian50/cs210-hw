@@ -1,0 +1,8 @@
+0
+ChecklistGoal:check1,Checkov driving the Enterprise,5,20,3,2
+SimpleGoal:newgoal,set more goals,5,True
+SimpleGoal:win everything,win all that can be won,100,False
+SimpleGoal:exercise,exercise tomorrow,5,False
+SimpleGoal:run a race,run a marathon,25,True
+SimpleGoal:swim,swim a mile,10,True
+EternalGoal:eternal life,live forever,100

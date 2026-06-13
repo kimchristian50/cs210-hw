@@ -1,0 +1,10 @@
+43
+EternalGoal,eternal life,live forever,100
+SimpleGoal:newgoal,set more goals,5,False
+SimpleGoal:sheep,counting sheep,1,True
+SimpleGoal:jump,jump over a shovel,2,True
+SimpleGoal:sing,sing a song,20,True
+SimpleGoal:win everything,win all that can be won,100,False
+SimpleGoal:exercise,exercise tomorrow,5,False
+SimpleGoal:run a race,run a marathon,25,True
+SimpleGoal:swim,swim a mile,10,True

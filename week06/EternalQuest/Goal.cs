@@ -19,7 +19,6 @@ public abstract class Goal
     public abstract void RecordEvent();
 
     public abstract bool IsComplete();
-    // - return true if the goal is complete, the way you do this is different for each goal, this is overwritten by the derived classes
 
 
     public virtual string GetDetailsString()
